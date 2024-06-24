@@ -1,0 +1,10 @@
+Hello, it's Jad Mattar. This is a description file of the project.
+
+This is a sample website build using html, css and javascript. This website is front-end based, no back-end was integrated.
+
+
+The website consists of 4 main webpages: Home, About Us, Updates and Products.
+The Home webpage is the main webpage that loads first. You can access the other webpages based on the navigation bar in the top. You can connect with the company in the social media section, where you can follow on Instagram, Facebook and LinkedIn. Besides, you can submit a form (email and password) to receive updates. JavaScript code was added for the form submission and password validation.
+About Us webpage will help the user/guest know more about the company, its history, its products and services. 
+Updates webpage will display the achievements, workshops and updates in each year based on the selected year. JavaScript code was added to select the paragraphs displayed based on the year.
+Products webpage will show different products that the company sell, with more details of the price and specifications. This webpage does not contain any interactivity characteristics. However, it only aims for displaying different products. Interactivity is possible to integrate using javascript or even using React.js which will simplify our work.

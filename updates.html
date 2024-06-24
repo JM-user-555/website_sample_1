@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates</title>
+    <link href="updates.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div id="Header">
+        <img id="img1BMW" src="BMWpic.png"><cite id="img1BMWciting"> Bayerische Motoren Werke</cite>
+        <h2 id="TitleInHeader">BMW Website</h2>
+        </div>
+        <div id="emptyHeader" style="height:150px;"></div>
+        <div id="tabs">
+        <a href="index.html"><button id="tabs_Home"">Home</button></a>
+          
+        
+        <a href="aboutus.html"><button id="tabs_AboutUs">About Us!</button></a>
+        <a href="updates.html"><button id="tabs_Updates">Updates</button></a>
+        <a href="products.html"><button id="tabs_Departments">Products</button></a>
+    </div>
+
+    <div id="selectUpdates">
+        <p>Select Updates Year</p>
+        <select id="selectedYear" onchange="changeFct(false)">
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+        </select>
+    </div>
+    <div class="updates_divs">
+    <h2 class="updates_div_titles"></h2>
+    <p class="updates_div_pars">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas impedit ratione dolor tenetur nemo vel voluptates? Quidem laboriosam illo, possimus esse nam quibusdam magni, rerum, sunt culpa nobis quae alias?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid magnam incidunt minima nostrum facilis alias veritatis ipsum natus cumque voluptas doloremque, ullam reiciendis, dolorum commodi corrupti culpa mollitia aut ratione.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum aliquam vel quae animi quis suscipit vero officiis tempora error assumenda atque quasi quaerat reiciendis laborum, ut quia eaque omnis corrupti.
+    </p>
+    </div>
+
+    <div id="footer" style="background-color:rgb(220,220,220);margin-top:50%; ">
+        <p id="all_rights_reserved" style="margin-left: 42%; font-size:20px; font-weight:bold;">All Rights Reserved <i class="fa fa-check" style="font-size:20px"></i></p>
+        
+    </div>
+        
+
+
+    <script src="updates.js"></script>
+</body>
+</html>

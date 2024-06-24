@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Website 8</title>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" type="text/css" href="index.css"/>
+
+</head>
+
+
+<body>
+<a id="facebookLink" href="https://www.facebook.com/BMW/" target="_blank"></a>
+<div id="Header">
+<img id="img1BMW" src="BMWpic.png"><cite id="img1BMWciting"> Bayerische Motoren Werke </cite>
+<h2 id="TitleInHeader">BMW Website</h2>
+</div>
+<div id="emptyHeader" style="height:150px;"></div>
+<div id="tabs">
+<a href="index.html"><button id="tabs_Home" onclick="HomeBtnClk();">Home</button></a>
+  
+
+<a href="aboutus.html"><button id="tabs_AboutUs">About Us!</button></a>
+<a href="updates.html"><button id="tabs_Updates">Updates </button></a>
+<a href="products.html"><button id="tabs_Departments">Products</button></a>
+</div>
+
+
+ 
+
+<div id="send_email">
+<button id="send_email_btn"><a href="mailto:jadmattar4@gmail.com" id="Send_Email_link">Send Email</a><i class="far fa-comment-alt"></i></button>
+</div>
+<div id="content">
+<h3 id="par1_T">Our <span class="red_in_title">Profile</span></h3>
+<p class="parags" id="par1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in risus consequat, blandit lectus vel, eleifend velit. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam et enim vel mauris hendrerit interdum. Sed tempus mi orci, ut porta nunc mattis non. Sed dignissim, diam nec facilisis hendrerit, felis est ullamcorper odio, vel porttitor sem mi vitae orci. Curabitur malesuada in enim et mollis. Sed sodales, felis a pellentesque cursus, risus nisl vulputate libero, ac varius nulla est sed turpis. Vivamus id mi sit amet nisi mollis pulvinar. Donec eu orci vehicula, semper tellus vitae, finibus mauris. Curabitur ac nunc ipsum.
+
+Nulla nec arcu dictum, lacinia sapien vitae, viverra nunc.</p>
+<h3 id="par2_T">Commited To <Span class="red_in_title" style="color:red;">Serve You</span></h3>
+<p class="parags" id="par2"> Sed et nulla pellentesque, efficitur mauris vitae, accumsan leo. Donec finibus interdum ultricies. Nullam suscipit nec tortor sed volutpat. Sed non elementum magna. Mauris sodales mattis facilisis. Maecenas id turpis in sapien ultricies ultrices vitae fringilla turpis. Suspendisse pharetra est vitae hendrerit tincidunt. Proin congue fermentum enim quis dapibus. Nullam vitae sem at lacus cursus consequat. Curabitur volutpat urna arcu, sed sagittis leo viverra sed. Quisque quis suscipit neque. Sed sit amet tempor turpis, condimentum hendrerit ante. Suspendisse eget libero lacus. Sed turpis nunc, ultricies tincidunt vulputate vitae, pretium nec eros. Quisque vel nisl et eros tempor euismod sed suscipit ante.
+
+Pellentesque in tortor quis lacus rutrum viverra.</p>
+<h3 id="par3_T">Quality <span class="red_in_title">Policy</span></h3>
+<p class="parags" id="par3"> Nam laoreet, diam at pharetra finibus, enim arcu dapibus mauris, id commodo felis odio eu dolor. Donec consectetur eu leo ut suscipit. Pellentesque dignissim malesuada est, at porttitor quam pulvinar sed. Nam sed ante ac lacus rutrum fermentum id ac lacus. Proin ut tortor gravida lacus faucibus viverra. Ut lacinia quis nulla at laoreet. Mauris lectus nunc, dignissim ut ex sit amet, efficitur tempus nulla. Suspendisse at urna ligula. Fusce dolor nisl, ultricies sit amet sapien tempor, pharetra vehicula dolor. Suspendisse potenti. Sed arcu metus, vehicula elementum lorem in, imperdiet imperdiet ante. Nam porttitor, quam vitae rhoncus eleifend, purus sem semper turpis, vel fringilla massa turpis sed velit. In sit amet magna euismod, tempor quam quis, tincidunt nisi.
+
+Praesent malesuada ligula at nisl hendrerit, non lacinia tortor accumsan. Fusce pharetra eleifend viverra. Ut eu odio odio. Proin maximus volutpat tincidunt. Integer ullamcorper metus sed augue euismod, vel convallis mi tempus. Integer rhoncus purus ipsum, ut pellentesque sapien rutrum in. Suspendisse varius aliquam erat ut iaculis.</p>
+</div>
+
+<div id="sign_up_and_social_media">
+<div class="share-options" id="options-of-sharing">
+ 
+<h2 style="margin-left:1%;  font-family:Brush Script MT;">Get Social With Us!</h2>                                     
+<button class="social-media-btn" id="facebook-btn" ><a href="https://www.facebook.com/BMW/" target="_blank" id="FacebookPage"><i class="fab fa-facebook"></i></a></button>
+<br>                             
+<button class="social-media-btn" id="instagram-btn"><a href="https://www.instagram.com/bmw/?hl=en" target="_blank" id="FacebookPage"><i class="fab fa-instagram"></i></a></button>
+         <br>       
+<button class="social-media-btn" id="linkedin-btn"><a href="https://www.linkedin.com/" target="_blank" id="LinkedInLink"><i class="fab fa-linkedin"></i></a></button>
+</div>    
+
+
+
+<div id="sign_up">
+<form name="m_form" action="#" method="get">
+<h2 id="sign_up_title" style="color:blue;font-family:Comic Sans MS;"> Sign Up to Receive New Updates</h2>
+<p style="font-size:18px;font-family:Comic Sans MS;">Email <input id="sign_up_email" type="email" placeholder="name@example.com"></p>
+<p style="font-size:18px;font-family:Comic Sans MS;">Password <input id="sign_up_password" type="password" placeholder="At least 8 characters"></p>
+</form>
+<button id="submit_btn" onclick="SubmitPressed()">Submit</button>
+</div>
+
+</div>
+
+<div id="footer" style="background-color:rgb(220,220,220);margin-top:5%;">
+<p id="all_rights_reserved" style="margin-left: 42%; font-size:20px; font-weight:bold;">All Rights Reserved <i class="fa fa-check" style="font-size:20px"></i></p>
+
+</div>
+
+
+<script src="Home.js"></script>
+</body>
+
+</html>

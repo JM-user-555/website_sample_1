@@ -1,0 +1,131 @@
+#selectUpdates{
+    position: absolute;
+    background-color: #858585;
+    width: 25%;
+    height: 50%;
+    text-align: center;
+    padding-top: 7.5%;
+}
+select{
+    position: relative;
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    border-radius: 10px;
+}
+#selectUpdates > p{
+    color: white;
+    font-size: 25px;
+
+}
+.updates_divs{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+#footer{
+    top: 100%;
+}
+
+
+
+#Header{
+    position:fixed;
+    width:100%;
+    height:140px;
+    margin-top:-10px;
+    background-color:rgb(220,220,220);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.65);
+    z-index:2;
+    }
+    #img1BMW{
+    width: 80px;
+    height:80px;
+    border-radius :20px;
+    margin-top:5px;
+    margin-left:15px;
+    }
+    #img1BMWciting{
+    position:absolute;
+     font-weight: bold;
+     font-size:25px;
+     font-family:Copperplate;
+     margin-top: 2.2%;
+     margin-left:1.7%;
+    }
+    #TitleInHeader{
+    color: red;
+    margin-left:15px;
+    }
+    #tabs{
+    background-color:blue;
+    padding-bottom:10px;
+    padding-top:10px;
+    }
+    #tabs_Home{
+    font-weight: bold;
+    height:50px;
+    width:110px;
+    color:white;
+    background-color:blue;
+    border:none;
+    border-radius:5px;
+    margin-right:15%;
+    margin-left:5%;
+    }
+    #tabs_AboutUs{
+    font-weight: bold;
+    height:50px;
+    width:110px;
+    color:white;
+    background-color:blue;
+    border:none;
+    border-radius:5px;
+    margin-right:15%;
+    }
+    
+    #tabs_Departments{
+    font-weight: bold;
+    height:50px;
+    width:110px;
+    color:white;
+    background-color:blue;
+    border:none;
+    border-radius:5px;
+    }
+    
+    #tabs_Updates{
+    font-weight: bold;
+    height:50px;
+    width:110px;
+    color:white;
+    background-color:blue;
+    border:none;
+    border-radius:5px;
+    margin-right: 15%;
+    }
+    
+    #tabs_Home:hover{
+        cursor: pointer;
+        background-color: rgb(49, 62, 181);
+       }
+       
+       #tabs_AboutUs:hover{
+        cursor: pointer;
+        background-color: rgb(49, 62, 181);
+       }
+       
+       #tabs_Updates:hover{
+        background-color: rgb(49, 62, 181);
+        cursor: pointer;
+       }
+       
+       #tabs_Departments:hover{
+        cursor: pointer;
+        background-color: rgb(49, 62, 181);
+       }
+       
+       #send_email_btn:hover{
+        cursor: pointer;
+        background-color: rgb(49, 62, 181);
+       }
